@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA395AF81A8EA22F0010463F /* QModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA395AF71A8EA22F0010463F /* QModel.swift */; };
 		D9FD9D311A7861A300DC1030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD9D301A7861A300DC1030 /* AppDelegate.swift */; };
 		D9FD9D331A7861A300DC1030 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD9D321A7861A300DC1030 /* ViewController.swift */; };
 		D9FD9D361A7861A300DC1030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD9D341A7861A300DC1030 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA395AF71A8EA22F0010463F /* QModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QModel.swift; sourceTree = "<group>"; };
 		D9FD9D2B1A7861A300DC1030 /* micoSAT app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "micoSAT app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD9D2F1A7861A300DC1030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9FD9D301A7861A300DC1030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				D9FD9D301A7861A300DC1030 /* AppDelegate.swift */,
 				D9FD9D321A7861A300DC1030 /* ViewController.swift */,
+				CA395AF71A8EA22F0010463F /* QModel.swift */,
 				D9FD9D341A7861A300DC1030 /* Main.storyboard */,
 				D9FD9D371A7861A300DC1030 /* Images.xcassets */,
 				D9FD9D391A7861A300DC1030 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				D9FD9D331A7861A300DC1030 /* ViewController.swift in Sources */,
 				D9FD9D311A7861A300DC1030 /* AppDelegate.swift in Sources */,
+				CA395AF81A8EA22F0010463F /* QModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				D9FD9D4C1A7861A400DC1030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9FD9D4D1A7861A400DC1030 /* Build configuration list for PBXNativeTarget "micoSAT appTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				D9FD9D4F1A7861A400DC1030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
